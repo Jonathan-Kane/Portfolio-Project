@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=devide-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,600;1,500&display=swap" />
+    <title>D E T A I L S</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top mb-4">
+        <a class="navbar-brand align-self-center offset-md-1" href="#">DETAILS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" style="color: black;"><i class="fa fa-home fa-md"></i> HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#aboutMe" style="color: black;"> ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="shows.html" style="color: black;"> SHOWS</a></li>
+            <li class="nav-item"><a class="nav-link" href="music.html" style="color: black;"> MUSIC</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+    </div>
+
+    <div class="container mt-60" id="contact">
+        <h1>BOOKINGS/CONTACT</h1><br>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+          <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+          <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row justify-content-between pt-5 text-center">
+                <div class="col-3 col-sm-2">
+                    <a href="index.html#aboutMe">ABOUT</a>
+                </div>
+                <div class="col-3 col-sm-2">
+                    <a href="shows.html">SHOWS</a>
+                </div>
+                <div class="col-3 col-sm-2">
+                    <a href="music.html">MUSIC</a></li>
+                </div>
+                <div class="col-3 col-sm-2">
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+            <div class="row justify-content-center py-4">
+                    <a class="btn btn-social-icon col-md-1" href="https://instagram.com/onlythedetails/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon col-md-1" href="https://facebook.com/onlythedetails/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon col-md-1" href="https://twitter.com/onlythedetails/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon col-md-1" href="https://twitch.tv/onlythedetails/" target="_blank"><i class="fa fa-twitch"></i></a>
+                    <a class="btn btn-social-icon col-md-1" href="https://soundcloud.com/onlythedetails/" target="_blank"><i class="fa fa-soundcloud"></i></a>
+            </div>
+        </div>
+    </footer>
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>

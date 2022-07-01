@@ -17,6 +17,11 @@ span a:hover {
     color: rgb(255, 255, 255);
 }
 
+/* p {
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+} */
+
 .jumbotron {
     background-image: url(/img/jumbotronbg.png);
     background-size: cover;
@@ -48,17 +53,13 @@ span a:hover {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-.bg-light {
-    background-color: rgba(255, 255, 255, 0.6); 
-}
-
 .navbar-brand {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     font-size: x-large;
     font-style: italic;
     color: rgb(0, 0, 0);
-    filter: drop-shadow(4px 3px 2px #404040);
+    filter: drop-shadow(3px 2px 1px #929292);
     -webkit-text-stroke: 1px rgb(3, 3, 3);
 }
 

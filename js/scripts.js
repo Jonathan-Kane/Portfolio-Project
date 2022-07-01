@@ -2,9 +2,9 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
         if (scroll >= 70) {
-            $(".navbar").addClass("bg-light");
+            $(".navbar").css("background-color", "rgb(220, 220, 220)");
         } else {
-          $(".navbar").removeClass("bg-light");
+            $(".navbar").css("background-color", "");
         }
     });
 });
