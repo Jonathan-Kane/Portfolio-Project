@@ -19,7 +19,7 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-light fixed-top mb-4">
-        <a class="navbar-brand align-self-center" href="#">DETAILS</a>
+        <a class="navbar-brand align-self-center offset-md-1" href="#">DETAILS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,12 +39,12 @@
 
     <div class="container">
         <div class="row mt-30 justify-content-center pb-5">
-            <div class="col-7 col-md-5">
+            <div class="col-8 col-md-5">
                 <div class="box1">
-                    <img class="pic-1" src="img/VirtualRitual.jpg" />
+                    <img class="pic-1 shadow-lg" src="img/VirtualRitual.jpg" />
                     <div class="box-content">
                         <h3 class="title" >// VIRTUAL RITUAL - 030</h3>
-                        <span class="post">LISTEN ON SOUNDCLOUD</span>
+                        <span class="post"><a href="https://soundcloud.com/onlythedetails/virtual-ritual-030" target="_blank">LISTEN ON SOUNDCLOUD</a></span>
                     </div>
                 </div>
             </div>
@@ -54,38 +54,54 @@
             </div>
         </div>
         
-        <div class="row pt-5" style="border: 2px solid black">
-            <div class="col-md-5">
-                <h1> ABOUT </h1>
+        <div class="row pt-5 justify-content-center">
+            <div class="col-md-6 align-self-center">
+                <h1 class="text-center"> ABOUT </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat ac odio eu consectetur. Donec euismod purus finibus, vehicula tellus nec, varius tellus. Suspendisse orci nibh, sollicitudin non dui ac, ornare lobortis dolor. Integer imperdiet pellentesque lacus porta placerat. Suspendisse ac maximus ex. In ac rutrum sapien, a ullamcorper nunc. Aenean sit amet lacus sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nec ornare ligula, eu ullamcorper leo. Praesent nec laoreet dolor. Sed convallis mauris vel fringilla iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     Nunc gravida nunc libero, et euismod turpis malesuada id. Pellentesque venenatis sagittis tristique. Donec tincidunt, quam vitae maximus venenatis, nunc arcu placerat ipsum, accumsan maximus magna nibh at enim. Vivamus feugiat lacus non rhoncus elementum. Cras eget dictum nibh. Integer sed velit lacinia, pulvinar metus a, pulvinar erat. Phasellus sodales efficitur sollicitudin. Sed nec dignissim odio. Pellentesque quis ultricies magna. Quisque id lacinia dui.
                 </p>
             </div>
-            <div class="col=md-5">
+            <div class="col-8 col-md-5 align-self-center">
+                <div id="gigPhotos" class="carousel slide shadow-lg" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 rounded" src="img/gig1.jpg" alt="Gig Photo"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded" src="img/gig2.jpg" alt="Gig Photo"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded" src="img/gig3.jpg" alt="Gig Photo"/>
+                        </div>
+                    </div>
+                </div>
             </div> 
         </div>
     </div>
 
     <footer class="site-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2">
-                    <h5>LINKS</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SHOWS</a></li>
-                        <li><a href="#">MUSIC</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
+            <div class="row justify-content-center pt-5">
+                <div class="col-3 col-sm-2">
+                    <a href="#">ABOUT</a>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <a class="btn btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                <div class="col-3 col-sm-2">
+                    <a href="#">SHOWS</a>
                 </div>
+                <div class="col-3 col-sm-2">
+                    <a href="music.html">MUSIC</a></li>
+                </div>
+                <div class="col-3 col-sm-2">
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
+            <div class="row justify-content-center py-4">
+                    <a class="btn btn-social-icon" href="https://instagram.com/onlythedetails/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon" href="https://facebook.com/onlythedetails/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon" href="https://twitter.com/onlythedetails/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon" href="https://twitch.tv/onlythedetails/"><i class="fa fa-twitch"></i></a>
+                    <a class="btn btn-social-icon" href="https://soundcloud.com/onlythedetails/"><i class="fa fa-soundcloud"></i></a>
             </div>
         </div>
     </footer>
