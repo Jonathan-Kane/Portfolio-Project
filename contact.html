@@ -26,7 +26,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html" style="color: black;"><i class="fa fa-home fa-md"></i> HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#aboutMe" style="color: black;"> ABOUT</a></li>
             <li class="nav-item"><a class="nav-link" href="shows.html" style="color: black;"> SHOWS</a></li>
             <li class="nav-item"><a class="nav-link" href="music.html" style="color: black;"> MUSIC</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
@@ -37,8 +36,11 @@
     <div class="jumbotron">
     </div>
 
-    <div class="container mt-60" id="contact">
-        <h1>BOOKINGS/CONTACT</h1><br>
+    <!-- <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contact</h1><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
         <form action="/action_page.php" target="_blank">
           <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
           <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
@@ -46,13 +48,67 @@
           <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
           <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
         </form>
-      </div>
+      </div> -->
 
+      <div class="row row-content justify-content-center">
+        <div class="col-6 pb-5">
+            <h1 class="text-center">BOOKINGS/CONTACT</h2>
+        </div>
+        <div class="col-md-10">
+            <form>
+                <div class="form-group row justify-content-center">
+                    <label for="fullName" class="col-md-2 col-form-label">Name</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Full Name" />
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="areaCode" class="col-md-2 col-form-label"> Contact Tel.</label>
+                    <div class="col-md-6">
+                        <input type="tel" class="form-control" name="telNum" placeholder="(555) 555-5555" />
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-2 offset-md-2">
+                        Is this regarding a booking inquiry?
+                    </div>
+                    <div class="col align-self-center">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                            <label for="contactYes" class="form-check-label">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                            <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="feedback" class="col-md-2 col-form-label">Booking Request/Inquiry Details</label>
+                    <div class="col-md-6">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+   </div>
+      
     <footer class="site-footer">
         <div class="container">
             <div class="row justify-content-between pt-5 text-center">
                 <div class="col-3 col-sm-2">
-                    <a href="index.html#aboutMe">ABOUT</a>
+                    <a href="index.html">HOME</a>
                 </div>
                 <div class="col-3 col-sm-2">
                     <a href="shows.html">SHOWS</a>
